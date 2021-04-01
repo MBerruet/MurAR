@@ -1,4 +1,4 @@
-//Multi Markers WebAR-AR.js and Aframe - Play MurAR
+//Multi Markers WebAR-AR.js and Aframe - Playing the Archive - Connected Environment CASA-UCL
 
 //Global Variable
 var markersURLArray=[];
@@ -15,7 +15,7 @@ AFRAME.registerComponent('markers_start',{
 		{
 			var url="markpatt/mark"+i+".patt";
 			markersURLArray.push(url);
-			markersNameArray.push('Marker'+i);
+			markersNameArray.push('Marker_'+i);
 			//console.log(url);
 		}
 
